@@ -1,0 +1,24 @@
+﻿.card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.card-action-area {
+    flex: 1;
+}
+
+.card-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-footer {
+    height: 40px;
+}
+
+.card-image {
+    object-fit: cover;
+}

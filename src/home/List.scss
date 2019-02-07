@@ -1,0 +1,21 @@
+﻿.list-container {
+    width: 220px;
+    margin: 20px;
+}
+
+.list-card-body {
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+}
+
+.list-card-item {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+
+    svg {
+        margin-right: 10px;
+    }
+}
+
