@@ -10,8 +10,6 @@
 
 }
 
-
-
 .card {
     width: 100%;
     display: flex;
@@ -36,4 +34,21 @@
     font-size:12px;
     font-weight: bold;
     color:#757575;
+}
+
+.home-image {
+    background-image: url(http://brazilkiwi.com/wp-content/uploads/2017/08/supermercado.jpg);
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+
+.new-list-container > a > div{
+   background-color: rgba(255,255,255,.8)
+}
+
+.list-container > a > div {
+    background-color: rgba(255,255,255,.8)
 }

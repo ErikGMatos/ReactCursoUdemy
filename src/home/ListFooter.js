@@ -2,7 +2,7 @@
 
 const ListFooter = props => (
     <Fragment>
-        <p>01/01/2019</p>
+        <p>{props.date}</p>
         <p>R$ {props.total}</p>
     </Fragment>
 );

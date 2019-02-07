@@ -7,7 +7,7 @@ import ListItemFooter from "./ListItemFooter";
 
 const ListItem = ({ item, deleteProduct, toggleProduct, list }) => (
     <CustomCard
-        image="http://s2.glbimg.com/P6Nn4AXYPq-K1Xek4cCKyONYYyA=/e.glbimg.com/og/ed/f/original/2014/01/15/cafe.jpg"
+        image={item.img}
         link="#"
         containerClass="list-item"
         footer={

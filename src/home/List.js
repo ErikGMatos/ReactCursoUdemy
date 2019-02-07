@@ -10,8 +10,9 @@ import "./List.scss";
 const List = props => (
     <CustomCard
         containerClass="list-container df"
-        footer={<ListFooter total={props.total} />}
+        footer={<ListFooter total={props.total} date={props.date} />}
         link="/lista/edicao"
+        cardClass={props.openedItems < 1 ? "closed-list" : "open-list"}
     >
         <div>
             <p className="title">{props.list}</p>

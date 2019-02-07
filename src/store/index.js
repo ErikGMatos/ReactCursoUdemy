@@ -20,6 +20,7 @@ const store = createStore(
 sagaMiddleware.run(sagas);
 
 store.subscribe(() => {
+    debugger;
     saveState({ list: store.getState().list });
 });
 
