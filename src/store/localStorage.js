@@ -14,7 +14,7 @@ export const loadState = () => {
 
 export const saveState = state => {
     try {
-        debugger;
+       
         const localStorageState = JSON.stringify(state);
         localStorage.setItem("list", localStorageState);
     } catch (error) {

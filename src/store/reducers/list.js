@@ -49,7 +49,7 @@ export default function lista(state = INITIAL_STATE, action) {
                     ...state.items,
                     {
                         ...action.product,
-                        ...action.product,
+                        //...action.product,
                         total: getItemTotal(action.product),
                         id: uuidv1(),
                         checked: false,
